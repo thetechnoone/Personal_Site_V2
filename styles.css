@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+    background-color:#F9F3EF ;
+}
+
+/*Welcome Section*/
+
+
+.welcomeimage{
+    display: flex;
+    background-image: url(./Images/SVG\ SEA.JPEG);
+    min-height:1000px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.welcometext > h1{
+  font-family: "Kelly Slab", sans-serif;
+  font-size: 10rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #F9F3EF ;
+  margin:0;
+ padding:0;
+}
+
+.welcomebreak{
+ width:500px;
+ margin: 25px 0 10px 0;
+ border: #F9F3EF 5px solid;
+ justify-self: center;
+}
+
+.welcometext > h3{
+ font-size:large;
+ font-family: "Economica", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+ font-size: 5rem;
+ text-align: center;
+ color:#1B3C53;
+ margin:0;
+ padding:0;
+
+}
+
+
+/*Nav Bar Section*/
+
+
+.navbar{
+    background-color:#1B3C53;
+    overflow: hidden;
+    width:100%
+}
+.navbar a {
+ float:left;
+ padding: 15px 15px;
+ text-decoration:none;
+ color:#F9F3EF;
+ font-size:large;
+ font-family: "Economica", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+}
+
+
+
+.navbar a:hover{
+    background-color: #456882;
+}
+
+
+/* Home Page Section*/
+
+
+#homepage > div > h1{
+    font-family: "Kelly Slab", sans-serif;
+  font-size: 10rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #1B3C53;
+  margin: 0;
+ padding:0;
+}
+
+#homepage > div > h3{
+     font-size:large;
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    text-align: center;
+    color:#F9F3EF;
+    -webkit-text-stroke:#1B3C53 2px;
+    margin:0;
+    padding:0;
+
+}
+.headshot{
+    height:300px;
+    width: 300px;
+    object-fit: cover;
+    margin:0px;
+    padding:0px;
+    border-radius:50%
+}
+.homeflex{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*About Me banner*/
+
+.aboutmeimage{
+ 
+    display: flex;
+    background-image: url(./Images/CANADA_LAKE_1.JPEG);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+.aboutmebanner > h2{
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    text-align: center;
+    color:#F9F3EF;
+    margin:10rem 0 0 0;
+    padding:0;
+}
+/*About Me Body*/
+
+.aboutmebody{
+    display:flex;
+    height:1000px;
+    justify-content: space-evenly;
+}
+.aboutbox > p{
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.aboutbox > h3{
+ font-size:large;
+ font-family: "Economica", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+ font-size: 5rem;
+ text-align: center;
+ color:#1B3C53;
+ margin:0;
+ padding:0;}
+
+.aboutbox{
+    margin-top: 6rem;
+   
+}
+.aboutdivider{
+    height:100px;
+    border-left: 10px solid #1B3C53  ;
+    margin: 6rem 0 0 0
+}
+
+.aboutnav{
+    height:50px
+}
+
+.bioimg{
+    height: 200px;
+    object-fit: cover;
+}
+.Bio{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+}
+.Skills{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+}
+.Portfolio{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+}
+.bioimg{
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px
+    
+}
+.bioimg:hover{
+    transform:scale(1.09)
+}
+
+.parawidth{
+    max-width: 400px;
+    text-align: center;
+   font-family: "Economica", sans-serif;
+   font-style: normal;
+   font-size: 20px;
+   color:#1B3C53;
+   margin:0;
+   padding:0;
+}
+
+.resumelink{
+    text-decoration: underline;
+    color:#1B3C53 ;
+}
+
+.resumelink:hover{
+    color: #456882;
+}
+
+.portfoliopara{
+    margin-bottom: 45px;
+}
+
+/*Contact Me Banner*/
+
+.contactmeimage{
+    display:flex;
+    background-image: url(./Images/LAKE_CAR.JPEG);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.contactmebanner>h2{
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    text-align: center;
+    color:#F9F3EF;
+    margin:10rem 0 0 0;
+    padding:0;
+}
+
+/*Contact Me Body*/
+
+.contactmebody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.email > h3{
+ font-size:large;
+ font-family: "Economica", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+ font-size: 5rem;
+ color:#1B3C53;
+ margin:0;
+ padding:0;
+}
+
+.email > p{
+ font-family: "Economica", sans-serif;
+ font-style: normal;
+ font-size: 20px;
+ color:#1B3C53;
+ margin:0;
+ padding:0;
+}
+
+/*.emailbutton{
+   padding: 10px 10px ;
+   margin: 20px 0 0 0;
+   border:none;
+   background-color: #456882;
+   border-radius: 5px;
+   color: #F9F3EF;
+   transition:
+    background-color 0.5s,
+    color 0.5s,
+    box-shadow 0.5s;*/
+
+    /*  background-color:#F9F3EF, 
+    color: #1B3C53,
+    box-shadow: 2px 2px 2px 1px black;}*/
+
+
+/*.emailbutton:hover{
+    background-color:#F9F3EF;
+    color: #1B3C53;
+    box-shadow: 2px 2px 2px 1px black;
+    
+}*/
+
+/* Footer Section */
+
+.footercontainer{
+    display: flex;
+    height:80px;
+    background-color:#1B3C53;
+    justify-content: center;
+}
+
+.footercontainer > p {
+    font-family: "Economica", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+    color:#F9F3EF;
+    margin:2rem 0 0 0;
+    padding:0;
+}
+
